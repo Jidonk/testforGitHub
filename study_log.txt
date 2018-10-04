@@ -1,0 +1,41 @@
+
+【2018/10/4创建git仓库】
+1、创建仓库
+mkdir test_git
+cd test_git
+git init 
+2、把文件提交的仓库
+git add xxx
+git commit -m "xxxx"
+
+3、版本退回
+git reset --hard HEAD^ 退回上一个版本
+git reset --head HEAD~10从当前版本开始，往回退10个版本
+
+git reflog 查看历史命令（用于查看commit_id）
+
+4、工作区和暂存区
+工作区：当前的工作目录
+暂存区：使用git add命令时，将文件添加到暂存区中
+当前分支：使用git commit命令时，将文件添加到当前分支
+使用git status命令查看当前工作区的状态
+
+5、分支创建与合并
+git checkout -b dev 创建dev分支并切换到dev分支
+上面的命令相当于下面的两条命令
+git branch dev
+git checkout dev
+
+查看当前的分支
+git branch
+git merge dev 用于合并当前分支到指定分支
+git branch -d dev 删除分支 
+
+
+
+【在windows上安装git】
+git config --global user.name "Your Name"
+git config --global user.email "email@example.com"
+
+设置机器的名字和邮件地址
+
