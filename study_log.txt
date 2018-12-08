@@ -1,3 +1,15 @@
+【2018/12/8】
+将本地的代码仓库推送到远程仓库中（本地代码仓库在Work目录，远程代码仓库是Ubuntu_Work）
+git init 
+git config --global user.name "Your Name"
+git config --global user.email "email@example.com"
+
+以上步骤不需要
+参考连接 http://www.runoob.com/git/git-remote-repo.html
+git remote add origin xxx.xxx@xxx
+git push origin master
+
+
 
 【2018/10/4创建git仓库】
 1、创建仓库
