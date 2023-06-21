@@ -32,4 +32,4 @@ jobs:
           echo Add other actions to build,
           echo test, and deploy your project.
           date
-          ping www.google.com
+          ping www.google.com -c 10
